@@ -1,0 +1,36 @@
+{
+  "APP": {
+    "COMMON": {
+      "ACTIVATE": "Changed",
+      "ACTIVE": "Active",
+      "ADD": "Add",
+      "BACK": "Back",
+      "CANCEL": "Cancel",
+      "CAPABILITY": "Capability",
+      "CREATED": "Created",
+      "DEACTIVATE": "Deactivate",
+      "DELETE": "Delete",
+      "DELETE_ALL": "Delete selected",
+      "DESCRIPTION": "Description",
+      "DISABLE": "Disable",
+      "EDIT": "Edit",
+      "ENABLE": "Enable",
+      "GROUP": "Group",
+      "INACTIVE": "Inactive",
+      "ITEMS_SELECTED": "{{num}} item(s) selected",
+      "LAST_MODIFIED": "Last Modified",
+      "NAME": "Name",
+      "OF_TOTAL": "of {{total}}",
+      "OK": "OK",
+      "REQUIRED": "Required",
+      "SAVE": "Save",
+      "SAVE_CHANGES": "Save Changes",
+      "SEARCH_HERE": "Search here",
+      "TAGS": "Tags",
+      "TITLE": "TDAA - {{title}}",
+      "TYPE": "Type",
+      "USER": "User",
+      "VIEW": "View"
+    }
+  }
+}
