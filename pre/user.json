@@ -1,7 +1,7 @@
 {
   "APP": {
     "COMMON": {
-      "ACTIVATE": "Changed",
+      "ACTIVATE": "yes",
       "ACTIVE": "Active",
       "ADD": "Add",
       "BACK": "Back",
