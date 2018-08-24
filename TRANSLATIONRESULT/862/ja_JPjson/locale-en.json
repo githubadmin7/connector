@@ -1,0 +1,184 @@
+{
+  "cloud-composer-ui": {
+    "images": {
+      "header": "Images",
+      "empty-list-search": "There were no images that met your search criteria, please check your search criteria and try again.",
+      "empty-list-default": "There are currently no images available. Images will appear once an Amazon EC2, Microsoft Azure, or VMware vCenter provider has been configured.",
+      "assistance": {
+        "introduction": "Welcome to Cloud Brokering.",
+        "description1": "Once your cloud providers have been configured, you can use the search or filter options to begin.",
+        "description2": "Cloud Brokering enables you to browse a unified listing of images from popular cloud providers such as Amazon EC2, Microsoft Azure, and VMware vCenter. Once you find an image that meets your needs, you can create a CSA Service Offering from it.",
+        "quick_tour": "Quick Tour"
+      },
+      "tour": {
+        "searching": {
+          "header": "Searching",
+          "description": "Trying to find an image? One way to find images you are looking for is to simply type in some search criteria. e.g. opensuse"
+        },
+        "filtering": {
+          "header": "Filtering",
+          "description": "Another way to find an image is to use the filtering options. You can filter images by provider type as well as by image category."
+        },
+        "images": {
+          "header": "Images",
+          "description": "Your image results will appear here. If there are no images appearing by default, make sure your resource supply manager has configured at least one Amazon, Azure or VMware provider."
+        },
+        "image": {
+          "header": "Image",
+          "description": "This is an image. You can click to see more details and easily convert this into a CSA Service Offering."
+        }
+      }
+    },
+    "catalog-item-modal": {
+      "heading": "Catalog Item"
+    },
+    "offering-created-modal": {
+      "heading": "Your offering is ready!",
+      "summary": "Your offering has been created with the name <b>{{name}}</b>.",
+      "review": "We recommend you review the configuration of this offering before publishing it to a catalog.",
+      "question": "Do you want to configure another offering from the same image, or return to the list of images? You can also view the created offering by following the link below. ",
+      "open-offering": "View Offering",
+      "buttons": {
+        "configure-another": "Configure Another",
+        "return-to-images": "Return to Images",
+        "view-offering": "View Offering"
+      }
+    },
+    "validation-status-modal": {
+      "inprogress": "We are currently validating your selections against the available providers...",
+      "heading-errors": "Validation Failed",
+      "message-errors": "We were unable to validate your selections with the available providers. Please review the validation results below and take any required actions to resolve the validation issues. If you feel these messages can be safely ignored, you can choose to skip validation.",
+      "cancel": "Cancel",
+      "skip-validation": "Skip Validation",
+      "skip-validation-tooltip": "Skip validation and create the offering anyway.",
+      "try-again": "Try Again",
+      "try-again-tooltip": "Try validation again and create the offering if validation succeeds.",
+      "provider": "Provider",
+      "message": "Message"
+    },
+    "image": {
+      "links": "Links",
+      "highlights": "Highlights",
+      "tags": "Tags",
+      "os": "Operating System",
+      "available_since": "Available Since",
+      "provider-description": {
+        "AWS": {
+          "basic": "Provided by Amazon EC2",
+          "default": "This is an Amazon EC2 image. There is no description provided."
+        },
+        "AZURE": {
+          "basic": "Provided by Microsoft Azure",
+          "default": "This is a Microsoft Azure image. There is no description provided."
+        },
+        "VCENTER": {
+          "basic": "Provided by VMware",
+          "default": "This is a VMware vCenter image. There is no description provided. <div>Please ask your VMware administrator to add a description to this template.</div>"
+        }
+      },
+      "pricing": {
+        "summary": "From ${{hourlyTotal}}/hr or ${{yearlyTotal}}/yr",
+        "hourly": "From ${{total}}/hr",
+        "daily": "From ${{total}}/day",
+        "yearly": "From ${{total}}/year",
+        "data-warning": "This pricing list is for informational purposes only. Pricing may be subject to additional terms required by the cloud provider."
+      },
+      "vmware": {
+        "offering": {
+          "helplink-label": "vCenter Template Help",
+          "size": {
+            "recommended": "Recommended",
+            "micro": "Micro",
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large",
+            "custom": "Custom"
+          },
+          "create-label": "Create an Offering",
+          "resource-location-label": "Resource Location",
+          "datacenter-label": "Datacenter",
+          "template-label": "Template",
+          "custom-spec-selection": {
+            "label": "Which VM Custom Specification would you like to use?",
+            "placeholder": "Custom specifications"
+          },
+          "custom-spec-selection-ram": "Select amount of RAM (GB)",
+          "custom-spec-selection-cpu": "Select number of CPU cores",
+          "prefix-label": "Enter a Naming Prefix",
+          "size-selection": {
+            "label": "How would you like to size your VM?",
+            "placeholder": "Select Size"
+          },
+          "no-specs": "There are no custom specifications for this image.",
+          "fulfill-label": "Based on your selection, the following provider instance will be able to fulfill the created offering:"
+        }
+      },
+      "offering": {
+        "create": "Create an Offering",
+        "region-selection": {
+          "heading": "Which region do you want to use for this offering?",
+          "placeholder": "Select a region"
+        },
+        "no-regions": "There are no regions available for this image.",
+        "instance-type": {
+          "heading": "Which instance size do you want to use for this offering?",
+          "placeholder": "Select an instance size",
+          "learn-more": "Learn More"
+        },
+        "provider-instances": "Based on your selection, the following provider instances will be able to fulfill the created offering:",
+        "no-providers": "There are no providers available that will be able to fulfill this configuration.",
+        "create-button": "Create Offering",
+        "cancel-button": "Cancel",
+        "close-button": "Close"
+      }
+    },
+    "filter": {
+      "provider-type": {
+        "heading": "Provider Type",
+        "amazon-ec2": "Amazon EC2",
+        "microsoft-azure": "Microsoft Azure",
+        "vmware-vcenter": "VMware vCenter"
+      },
+      "image-type": {
+        "heading": "Image Category",
+        "private-images": "Private Images",
+        "marketplace-images": "Marketplace Images",
+        "other-images": "Other Images"
+      }
+    },
+    "tour": {
+      "steps": {
+        "next": "next",
+        "previous": "Previous",
+        "pause": "Pause",
+        "end-tour": "End Tour"
+      }
+    },
+    "errors": {
+      "UNKNOWN_ERROR": "An unknown error has occurred, please contact your system administrator.",
+      "RESOURCE_NOT_FOUND": "Unable to find the requested {{resource}} {{resourceId}}"
+    },
+    "validation-service": {
+      "errors": {
+        "AWS": {
+          "AuthFailure": "The provided credentials could not be validated. You may not be authorized to carry out the request; for example, associating an Elastic IP address that is not yours, or trying to use an AMI for which you do not have permissions. Ensure that your account is authorized to use the Amazon EC2 service, that your credit card details are correct, and that you are using the correct access keys.",
+          "Blocked": "Your account is currently blocked. Contact aws-verification@amazon.com if you have questions.",
+          "OptInRequiredWithUrl": "You are not authorized to use the requested service. Ensure that you have subscribed to the service you are trying to use. In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit {{marketplaceUrl}}",
+          "OptInRequired": "You are not authorized to use the requested service. Ensure that you have subscribed to the service you are trying to use. In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit the AWS Marketplace.",
+          "PendingVerification": "Your account is pending verification. Until the verification process is complete, you may not be able to carry out requests with this account. If you have questions, contact AWS Support.",
+          "UnauthorizedOperation": "You are not authorized to perform this operation. Check your IAM policies, and ensure that you are using the correct access keys. For more information, see Controlling Access. If the returned message is encoded, you can decode it using the DecodeAuthorizationMessage action. For more information, see DecodeAuthorizationMessage in the AWS Security Token Service API Reference.",
+          "ValidationError": "The input fails to satisfy the constraints specified by an AWS service.",
+          "UnknownError": "Unable to validate AWS image deployment"
+        },
+        "AZURE": {
+          "OptInRequired": "In order to use this Azure Marketplace product you need to enable programatic deployment. To do so please visit {{agreementUrl}}",
+          "UnknownError": "Unable to validate Azure image deployment"
+        },
+        "VCENTER": {
+          "InvalidTemplate": "Unable to find template in vCenter.",
+          "UnknownError": "Unable to validate vCenter virtual machine deployment"
+        }
+      }
+    }
+  }
+}
