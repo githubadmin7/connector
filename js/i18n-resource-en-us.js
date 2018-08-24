@@ -6,7 +6,7 @@
     if (!window.emLocales) {
         window.emLocales = {};
     }
-    window.emLocales["en-US"] = {
+    window.emLocales["en-US"] = {     
         "$": {
             "locale": "en-US",
             "test": {

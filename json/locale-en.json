@@ -1,7 +1,7 @@
 {
     "cloud-composer-ui":
     {
-        "images":
+        "images":    
         {
             "header": "Images",
             "empty-list-search": "There were no images that met your search criteria, please check your search criteria and try again.",
