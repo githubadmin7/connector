@@ -44,8 +44,8 @@
             "EditButton": "Edit",
             "CancelButton": "Cancel",
             "OKButton": "OK",
-            "YesButton": "yes",
-            "NoButton": "no",
+            "YesButton": "Yes",
+            "NoButton": "No",
             "CloseButton": "Close",
             "SysError": "System Error",
             "GeneralError": "Error",
@@ -348,7 +348,7 @@
             "no-data-yet-footer-not-authorized": "You need permissions to download application agent. Please contact your admin.",
             "application-waiting-for-data-footer-text-multiple": "{{0}} agents connected. \nGenerate traffic to see data...",
             "application-waiting-for-data-footer-text-single": "1 agent connected. \nGenerate traffic to see data...",
-            "application-waiting-for-data-title": "No data yet",
+            "application-waiting-for-data-title": "No Data Yet",
             "application-download-server-busy-title": "Server is busy",
             "application-download-server-busy-message": "The download server is currently busy with other requests. Try again later.",
 
@@ -362,7 +362,7 @@
             "responseTime": "Transaction Server Time",
             "failureRate": "Transactions Failed",
             "services": "Services with problems ",
-            "throughputUnits": "calls/min",
+            "throughputUnits": "Calls/min",
             "servicesOk" : "All services \nare OK",
             "servicesWithProblems" : "of {{0}} services \nwith problems",
             "serviceWithProblems" : "of {{0}} service \nwith problems",
@@ -374,7 +374,7 @@
             "application-name-required": "Application name (required)",
             "application-key": "Application key",
             "add-new-application": "Add New Application",
-            "name": "Application Name",
+            "name": "Application name",
             "platform-type": "Platform",
             "key": "Key",
             "threshold": "Action response-time threshold",
@@ -476,7 +476,7 @@
                 "share": "Share",
                 "shareMsg": " this with someone else",
                 "dashboardButton": "Continue to Dashboard",
-                "appCreateSuccessfullyMsg": "Application Created Successfully",
+                "appCreateSuccessfullyMsg": "Application created successfully",
                 "editButton": "Edit",
                 "android": "(Android)"
             }
@@ -501,7 +501,7 @@
             "configuration": {
                 "main": "CONFIGURATION",
                 items: {
-                    "configuration": "CONFIGURATION"
+                    "configuration": "Configuration"
                 }
             }
         },
@@ -574,7 +574,7 @@
                 "throughputTitle": "Operation Calls/min",
                 "errorsTitle": "of operations failed",
                 "errorsDetails": "of operations are failed",
-                "latencyServerTitle": "Server time (avg)",
+                "latencyServerTitle": "Server Time (avg)",
                 "throughputServerUnits": "calls/min"
             },
             "infoTooltip": {
@@ -616,7 +616,7 @@
                 "throughputTitle": "Transaction Calls/min",
                 "errorsTitle": "of transactions failed",
                 "errorsDetails": "of transactions are failed",
-                "latencyServerTitle": "Server time (avg)",
+                "latencyServerTitle": "Server Time (avg)",
                 "throughputServerUnits": "calls/min",
                 "backButtonTooltip": "Back"
             },
@@ -689,7 +689,7 @@
             "SERVER": "API",
 
             "gridStates": {
-                "mostTimeConsuming": "Most Time Consuming",
+                "mostTimeConsuming": "Most time consuming",
                 "slowestClient": "Slowest response time",
                 "slowestServer": "Slowest server time",
                 "highestFailure": "Highest failure rate",
@@ -729,13 +729,13 @@
         "transactionTrend_drillToFailures":"View Recent Failed Calls",
         "transactionTrend_drillToSlowest":"View Slowest Calls",
 
-        "transactionTrend_drillToFailures_location":"Failures",
+        "transactionTrend_drillToFailures_location":"failures",
         "transactionTrend_drillToSlowest_location":"slowestServerTime",
 
         "noData" : "No Data",
 
         "pageTrend_errors":"Failed Page Loads",
-        "pageTrend_errors_server":"Failed Page Loads",
+        "pageTrend_errors_server":"Failed page loads",
         "pageTrend_errors_total":"Total {{0}} failed page loads during {{1}}",
         "pageTrend_error_total":"Total 1 failed page load during {{0}}",
         "noPagesErrors":"No failed page loads",
@@ -768,7 +768,7 @@
             "hideAll": "Hide",
             "nestedMethods": "nested methods",
             "operationGridTitle" : "OPERATION FLOW",
-            "backToOperationFlow": "OPERATION FLOW",
+            "backToOperationFlow": "Operation Flow",
             "backToOperationFlowTooltip": "Back to Operation Flow",
             "operationSqlTitle" : "Query:",
             "totalContribution" : "TOTAL CONTRIBUTION (%)",
@@ -787,13 +787,13 @@
             "responseTimeFooterText": "Transaction Server Time (avg)",
             "responseTimeUnitsText": "ms",
 
-            "failuresLeftHeaderText": "Failures",
+            "failuresLeftHeaderText": "FAILURES",
             "failuresHeaderText": "Failures",
             "failuresFooterText": "of transactions failed",
             "failuresUnitsText": "%",
 
             "throughputLeftHeaderText": "VOLUME",
-            "throughputHeaderText": "VOLUME",
+            "throughputHeaderText": "Volume",
             "throughputFooterText": "Transaction Calls/min",
 
             "header": "SERVICE HEALTH",
@@ -817,7 +817,7 @@
             "serviceDependencies" : "Service Dependencies",
             "backToServiceList" : "Back",
             "backToServiceListTooltip" : "Back to Application Health",
-            "serviceHealthHeader": "SERVICE HEALTH",
+            "serviceHealthHeader": "Service Health",
             "serviceHealthInfotip": "A service is one or more components of an application that provide a certain functionality and for which you would like to be able to view aggregated data.",
 
             "serviceDependency": "SERVICE DEPENDENCY",
@@ -841,7 +841,7 @@
             "failuresFooterText": "of Operations | Failed",
             "failuresUnitsText": "%",
 
-            "throughputHeaderText": "VOLUME",
+            "throughputHeaderText": "Volume",
             "throughputFooterText": "Operation | Calls/min",
 
             "services-with-problem-none"             : "All services are OK",
@@ -864,7 +864,7 @@
 
             "serviceTitle" : "Service",
 
-            "servicesHeader": "Service Overview",
+            "servicesHeader": "SERVICE OVERVIEW",
 
             "nodesAndOperationsHeaderText": "NODES & OPERATIONS",
 
@@ -885,7 +885,7 @@
                 "panelTitleInfo" : "{{0}} of {{1}} nodes with problems",
                 "nodeDisplayName" : "Node",
                 "hostDisplayName": "Host Name",
-                "serverTimeDisplayName" : "Operation Server Time (avg)",
+                "serverTimeDisplayName" : "Operation server Time (avg)",
                 "serverTimeColumnHeaderTooltip" : "Average response time of operation on each node",
                 "operationsFailuresDisplayName" : "Operation Failures",
                 "operationsFailuresTooltip" : "Percentage of calls with errors, out of total operation calls on each node",
@@ -899,11 +899,11 @@
                 "errors_tooltip": "Total of {{0}} operation failures during the {{1}}",
                 "throughput_tooltip": "Total {{0}} operation calls during the {{1}}",
                 "operationDisplayName" : "Inbound Operation",
-                "serverTimeDisplayName" : "Server time (avg)",
+                "serverTimeDisplayName" : "Server Time (avg)",
                 "serverTimeTooltip" : "Average response time of operation calls",
                 "failuresDisplayName" : "Failures",
                 "failuresTooltip" : "Percentage of calls with errors",
-                "operationThroughputDisplayName" : "calls/min",
+                "operationThroughputDisplayName" : "Calls/min",
                 "serverTimeColumnHeaderTooltip" : "Average response time of operation on all nodes",
                 "operationsFailuresTooltip" : "Percentage of calls with errors, out of total operation calls on all nodes",
                 "operationThroughputTooltip" : "Rate of operation calls on all nodes"
