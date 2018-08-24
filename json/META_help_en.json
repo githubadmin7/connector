@@ -1,0 +1,518 @@
+{
+   "help":{
+      "common":{
+         "name":"Page Help",
+         "notWhatYoureLookingFor": "Not what you're looking for?",
+         "goToFullHelp": "Go to full documentation",
+         "thisTab": "This Tab",
+         "thisSection": "This Section"
+      },
+      "channels":{
+         "id":"META_channels",
+         "name":"Channels",
+         "pages":{
+             "main": {
+                "id":"META_main",
+                "content":[
+                   {
+                      "text":"Channels are the means established by marketing organizations for interacting with customers. Examples of 'inbound' channels (where the customer initiates the interaction) include website, mobile app, call center, kiosk and Automated Teller Machine."
+                   }
+                ]
+            },
+            "details": {
+               "id":"META_details",
+               "title":"Details",
+               "content":[
+                  {
+                     "text":"Define channel metadata used in decisioning (name, keyname, timeout)"
+                  }
+               ]
+            },
+            "interaction_points": {
+               "id":"META_interaction_points",
+               "title":"Interaction Points",
+               "content":[
+                  {
+                     "text":"List all interaction points defined for the channel"
+                  }
+               ]
+           },
+           "message_groups": {
+              "id":"META_message_groups",
+              "title":"Message Groups",
+              "content":[
+                 {
+                    "text":"List all message groups associated with the channel (comprehensive list derived from the interaction points defined for the channel)"
+                 }
+              ]
+           },
+           "messages": {
+              "id":"META_messages",
+              "title":"Messages",
+              "content":[
+                 {
+                    "text":"List all messages associated with the channel (comprehensive list derived from the interaction points defined for the channel)"
+                 }
+              ]
+           },
+           "rules": {
+              "id":"META_rules",
+              "title":"Rules",
+              "content":[
+                 {
+                    "text":"List the rules defined for the channel in question (exclusive list; not all rules for all channels)."
+                 }
+              ]
+           },
+           "attributes": {
+               "id":"META_attributes",
+               "title": "Attributes",
+               "content": [
+                   {
+                       "text":"List the personalization attributes defined for the channel which will be globally applied for any message returned by the decisioning engine in that channel"
+                   }
+               ]
+           },
+           "responses": {
+              "id":"META_responses",
+              "title":"Responses",
+              "content":[
+                 {
+                    "text":"List all the defined responses for the channel (valid customer acknowledgements, both positive and negative, of messages received)."
+                 }
+              ]
+           }
+         }
+      },
+      "decision_attributes":{
+         "id":"META_decision_attributes",
+         "name":"Decision Attributes",
+         "pages":{
+            "main":{
+               "id":"META_main",
+               "content":[
+                  {
+                     "text":"Decision attributes are the attributes used in the decisioning process to determine the next best message for the customer. Examples: customer demographic information, contextual data such as customer's current page title."
+                  }
+               ]
+            },
+            "details":{
+               "id":"META_details",
+               "title":"Details",
+               "content":[
+                  {
+                     "text":"Specify properties of the attribute like assigning the decision attribute category, selecting the value type (string, numeric, Boolean, etc.)."
+                  },
+                  {
+                     "text":"Also specify other advanced characteristics like whether the attribute is to be designated to contain scoring output as a result of the decisioning process."
+                  },
+                  {
+                     "text":"Enable the attribute to be used by RTIM's self-learning engine as a 'predictor' to derive its predictive analytics."
+                  }
+               ]
+            }
+         }
+      },
+      "decision_attribute_categories":{
+         "id":"META_decision_attribute_categories",
+         "name":"Decision Attribute Categories",
+         "pages":{
+            "main":{
+               "id":"META_main",
+               "content":[
+                  {
+                     "text":"Decision attribute categories group the attributes that are used for decisioning."
+                  }
+               ]
+            },
+            "details":{
+               "id":"META_details",
+               "title":"Details",
+               "content":[
+                  {
+                     "text":"Define metadata about the decision attribute categories such as owner, whether the category represents complex attributes or not etc."
+                  }
+               ]
+            },
+            "attributes":{
+               "id":"META_attributes",
+               "title":"Decision Attributes",
+               "content":[
+                  {
+                     "text":"Lists the decision attributes associated with the category. Allows creation of additional attributes to be associated with the category."
+                  }
+               ]
+            }
+         }
+      },
+      "interaction_points":{
+         "id":"META_interaction_points",
+         "name":"Interaction Points",
+         "pages":{
+             "main":{
+                "id":"META_main",
+                "content":[
+                   {
+                      "text":"Within a channel, an interaction point represents the actual touchpoint for customer contact. For instance, within a website (channel), you could designate a web page as an interaction point; or within a web page, a panel."
+                   }
+                ]
+             },
+             "details":{
+                "id":"META_details",
+                "title":"Details",
+                "content":[
+                   {
+                      "text": "Define interaction-point metadata used in decisioning (name, keyname, business objectives, max/min number of messages)"
+                   }
+                ]
+             },
+             "message_groups":{
+                "id":"META_message_groups",
+                "title":"Message Groups",
+                "content":[
+                   {
+                      "text":"List all message groups associated with an interaction point"
+                   }
+                ]
+             },
+             "messages":{
+                "id":"META_messages",
+                "title":"Messages",
+                "content":[
+                   {
+                      "text":"List all messages associated with the interaction point (comprehensive list derived from the associated message groups)"
+                   }
+                ]
+             },
+             "arbitration":{
+                "id":"META_arbitration",
+                "title":"Arbitration",
+                "content":[
+                   {
+                      "text":"Per business requirements, specify the arbitration method to use during decisioning for ranking all eligible messages within the interaction point (custom formulas allowed, such as self-learning algorithms)"
+                   }
+                ]
+             },
+             "strategies":{
+                "id":"META_strategies",
+                "title":"Strategies",
+                "content":[
+                   {
+                      "text":"Define decisioning strategies that allow flexibility in personalization (example: prioritize different objectives than those ranked highest by the predictive analytic model in order to increase likelihood of the customer's acceptance of the message)"
+                   }
+                ]
+             }
+         }
+      },
+      "messages":{
+         "id":"META_messages",
+         "name":"Messages",
+         "pages":{
+             "main":{
+                "id":"META_main",
+                "content":[
+                   {
+                      "text":"Messages are the personalized content delivered to the customer through designated channels such as website, mobile app, call center or direct mail"
+                   }
+                ]
+            },
+             "details":{
+                "id":"META_details",
+                "title":"Details",
+                "content":[
+                   {
+                      "text":"Define message metadata used in decisioning (activation dates, message priority, prequalification)"
+                   }
+                ],
+                "inline_content": {
+                   "activation_deactivation": "Specify dates and times for message activation (only active messages are considered in decisioning).",
+                   "message_priority": {
+                      "base": "Determine the desired kind of message prioritization to use in decisioning.",
+                      "listText": [
+                         {
+                            "text": "Normal (the default): Decisioning logic prevails (no overrides)"
+                         },
+                         {
+                            "text": "Default: Message is returned if no other messages are qualified (minimum threshold is enforced but no normal or priority messages are qualified)"
+                         },
+                         {
+                            "text": "Priority: Message takes precedence over others regardless of its rank in the decisioning logic"
+                         }
+                      ]
+                   },
+                   "pre_qualified": {
+                      "base": "Prequalified messages will be delivered to a customer provided they meet the following criteria:",
+                      "listText": [
+                         {
+                            "text": "Customer is in the prequalified customer list"
+                         },
+                         {
+                            "text": "Customer passes the rules set at the channel, message group and message levels"
+                         },
+                         {
+                            "text": "The prequalified message scores high enough in arbitration that no better messages are available to extend"
+                         }
+                      ]
+                   }
+                }
+             },
+             "attributes":{
+                "id":"META_attributes",
+                "title":"Attributes",
+                "content":[
+                   {
+                      "text":"List all personalization attributes (greeting text, pixel ratio, banner color) associated with the message"
+                   }
+                ]
+             },
+             "rules":{
+                "id":"META_rules",
+                "title":"Rules",
+                "content":[
+                   {
+                      "text":"List all rules used for determining customer eligibility for the message (example using contact history: show message only if not shown in past seven days)"
+                   }
+                ]
+             },
+             "where_used":{
+                "id":"META_where_used",
+                "title":"Where Used",
+                "content":[
+                   {
+                      "text":"Show where message is used (channels, interaction points, message groups)"
+                   }
+                ]
+             }
+         }
+      },
+      "message_groups": {
+         "id":"META_message_groups",
+         "name":"Message Groups",
+         "pages":{
+            "main":{
+               "id":"META_main",
+               "content":[
+                  {
+                     "text":"Message Groups allow you to classify messages by a shared business purpose. Groups may serve various objectives, such as a marketing campaign goal ('Customer Win-Back Strategy Offers') or a product grouping ('Personal-Loan-Based Offers')."
+                  }
+               ]
+            },
+            "details":{
+               "id":"META_details",
+               "title": "Details",
+               "content": [
+                  {
+                     "text": "Defines message group data (name, description, owner and associated business objectives)"
+                  }
+               ]
+            },
+            "messages": {
+               "id":"META_messages",
+               "title": "Messages",
+               "content": [
+                  {
+                     "text": "Lists all the messages associated with the message group. (Messages are the personalized content delivered to the customer through designated channels such as website, mobile app, call center or direct mail.)"
+                  }
+               ]
+            },
+            "arbitration" : {
+               "id":"META_arbitration",
+               "title": "Arbitration",
+               "content": [
+                  {
+                     "text": "Defines the mathematical formula to be used to rank the eligible messages within the message group during the decisioning process"
+                  }
+               ]
+            },
+            "rules": {
+               "id":"META_rules",
+               "title": "Rules",
+               "content": [
+                  {
+                     "text": "Lists the rules defining eligibility criteria for the entire message group. All messages in the group must pass the criteria before any single message can be eligible for further evaluation."
+                  }
+               ]
+            },
+            "where_used": {
+               "id":"META_where_used",
+               "title": "Where Used",
+               "content": [
+                  {
+                     "text": "Lists the channel and interaction points associated with the message group and its messages"
+                  }
+               ]
+            }
+         }
+      },
+      "notFound":{
+         "id":"META_notFound",
+         "name":"",
+         "pages":{
+            "main": {
+               "id":"META_main",
+               "content":[
+                  {
+                     "text":"No page-specific help available."
+                  }
+               ]
+            }
+         }
+      },
+      "objectives": {
+         "id":"META_objectives",
+         "name":"Objectives",
+         "pages":{
+            "main":{
+               "id":"META_main",
+               "content":[
+                  {
+                     "text":"Objectives allow you to define specific organizational goals and associate them with your decisioning strategy, providing a strategic view driven by business goals. Examples of objectives include revenue growth, acquisition and customer satisfaction."
+                  }
+               ]
+            }
+         }
+      },
+      "personalization_attributes":{
+         "id":"META_personalization_attributes",
+         "name":"Personalization Attributes",
+         "pages":{
+             "main":{
+                "id":"META_main",
+                "content":[
+                   {
+                      "text":"Personalization attributes are message characteristics (such as SKU number, pixel ratio and greeting text) that are used by the content management system to personalize the presentation of the message to the customer."
+                   }
+                ]
+            },
+             "details":{
+                "id":"META_details",
+                "title":"Details",
+                "content":[
+                   {
+                      "text":"Personalization attribute properties include category assignment, value type specification (string, numeric, Boolean), and advanced options such as the ability to represent scores."
+                   }
+                ]
+             }
+         }
+      },
+      "personalization_attribute_categories":{
+         "id":"META_personalization_attribute_categories",
+         "name":"Personalization Attribute Categories",
+         "pages":{
+             "main":{
+                "id":"META_main",
+                "content":[
+                   {
+                     "text":"Personalization attribute categories group the attributes that are used for personalization."
+                   }
+                ]
+            },
+            "details":{
+               "id":"META_details",
+               "title":"Details",
+               "content":[
+                  {
+                     "text":"Define and show basic details and metadata about the personalization attribute categories"
+                  }
+               ]
+            },
+            "attributes":{
+                "id":"META_attributes",
+                "title":"Personalization Attributes",
+                "content":[
+                    {
+                       "text":"Lists the personalization attributes associated with the category. Allows creation of additional attributes to be associated with the category."
+                    }
+                ]
+            }
+         }
+      },
+      "rules": {
+         "id":"META_rules",
+         "name":"Rules",
+         "pages":{
+            "main":{
+               "id":"META_main",
+               "content":[
+                  {
+                     "text":"Rules are reusable objects that define eligibility criteria and the associated metadata required for global-level reuse across multiple decisioning strategies defined for channels and interaction points."
+                  }
+               ]
+            },
+            "details":{
+               "id":"META_details",
+               "title": "Details",
+               "content":[
+                  {
+                     "text":"Defines metadata for the rule"
+                  }
+               ]
+            },
+            "criteria": {
+               "id":"META_criteria",
+               "title": "Criteria",
+               "content":[
+                  {
+                     "text":"Defines eligibility criteria that will be evaluated for every object with which the rule is associated"
+                  }
+               ]
+            },
+            "where_used_context" : {
+               "id":"META_where_used_context",
+               "title": "Where Used (Context)",
+               "content":[
+                  {
+                     "text":"Lists all the channels, interaction points and strategies with which the rule is associated"
+                  }
+               ]
+            },
+            "where_used_global": {
+               "id":"META_where_used_global",
+               "title": "Where Used (Global)",
+               "content":[
+                  {
+                     "text":"Lists all the messages and message groups with which the rule is associated. Differs from 'Where Used (Context)' in that the rules will be implicitly evaluted anywhere the messages or message groups are used."
+                  }
+               ]
+            }
+         }
+      },
+      "strategies": {
+         "id":"META_strategy",
+         "name": "Strategy",
+         "pages": {
+            "main": {
+               "id":"META_main",
+               "content": [
+                  {
+                     "text": "Strategy allows prioritization of business objectives tied to eligible messages using the method you specify (objective balancing)"
+                  }
+               ]
+            },
+            "details": {
+               "id":"META_details",
+               "title": "Details",
+               "content": [
+                  {
+                     "text": "Define strategy and associate rules to dictate when strategies should be executed"
+                  }
+               ]
+            },
+            "objective_balancer": {
+               "id":"META_objective_balancer",
+               "title": "Objective Balancer",
+               "content": [
+                  {
+                     "text": "Specify if objectives are to be prioritized based on weighting or a fixed count"
+                  }
+               ],
+               "inline_content": {
+                  "balanced_objectives": "For each objective, allows the specifying of weights (from 0% to 200%) indicating the factor by which the score of the eligible message will be increased or decreased",
+                  "fixed_count_objectives": "For each objective, allows the specifying of the minimum number of eligible messages (tied to the specific objective) that need to be returned as part of the decisioning output"
+               }
+            }
+         }
+      }
+
+   }
+}
